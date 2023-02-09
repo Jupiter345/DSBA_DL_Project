@@ -1,5 +1,5 @@
 # DSBA_DL_Project
-Semantic Image Segmentation of arial imagery
+Semantic Image Segmentation of aerial imagery
 
 This project was given as a final project in our Masters' program's Foundation of Deep Learning course.
 
