@@ -1,7 +1,7 @@
 # Hurricane Harvey Challenge: Semantic Image Segmentation of Aerial Imagery
 
 ## Authors
-Anmol Katiyar (Anmol.katiyar@student-cs.fr)
+Anmol Katiyar (anmol.katiyar@student-cs.fr) <p>
 Sarvani Sambaraju (sarvani.sambaraju@student-cs.fr)
 
 ## ABSTRACT
