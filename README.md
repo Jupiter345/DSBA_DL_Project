@@ -13,14 +13,19 @@ semantic segmentation. Several models of Semantic segmentation were used to dete
 model for the images. Out of all, PSPnet has given the highest accuracy.
 
 ## 1. PROBLEM DEFINITION AND DATA-PREPROCESSING
-### Class imbalance: The dataset may be imbalanced, with more samples of one class than the other.
+### Class imbalance: 
+The dataset may be imbalanced, with more samples of one class than the other.
 Techniques such as class weighting or oversampling to address this issue.
 Clearly the classes are not balanced, it is evident that the property roof
 class has been identified the most whereas there are not enough samples
 for the class bridge.
-### Synthetic Images: More data in the form of synthetic images can be
+
+### Synthetic Images: 
+More data in the form of synthetic images can be
 acquired to improve the performance of the model.
-### Data augmentation: Data augmentation techniques such as random
+
+### Data augmentation: 
+Data augmentation techniques such as random
 rotations, horizontal and vertical flips, and cropping are used to
 artificially increase the size of the training dataset and make the model
 more robust to variations in the data. We have implemented several
@@ -30,12 +35,16 @@ Imaging Warping technique like Grid distortion maps equivalent
 families of curves which is combined with Optical Distortion ensures
 that sections of the image gets distorted to the nearest pixel thereby using
 Gaussian in procedure. The images are properly scaled and normalized before being fed into the model.
-### Pre-Processing Images: Two functions have been implemented to one-hot encode the images. a class
+
+### Pre-Processing Images: 
+Two functions have been implemented to one-hot encode the images. a class
 vector (integers) is converted to a binary class matrix and then converted to a tensor.
 Fine-tuning: Fine-tuning the pre-trained encoder weights by training the model for a few more epochs
 with a lower learning rate. Learning rate was initially set to 0.0001. At epoch 38, it dropped to
 2.417315480804104e-05.
-### Hyperparameter tuning: Batch size was set to 4 after testing with multiples of 2. The Adaptive
+
+### Hyperparameter tuning: 
+Batch size was set to 4 after testing with multiples of 2. The Adaptive
 gradient descent optimizer Adam ensures we do not have to change the learning rate.
 Transfer learning: Since the dataset is relatively small, using a pre-trained model and fine-tuning it
 on this dataset. This will allow to leverage the knowledge learned on a larger dataset. Prior datasets
