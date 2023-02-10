@@ -118,8 +118,8 @@ segmentation network.
 
 ## 5. REFERENCES
 [1] James, Gareth, Daniela Witten, Trevor Hastie, and Robert Tibshirani. 2013. An Introduction to Statistical Learning: With Applications
-in R. Springer
+in R. Springer <p>
 [2] Yurtkulu, S. C., Şahin, Y. H., & Unal, G. (2019, April). Semantic segmentation with extended DeepLabv3 architecture. In 2019 27th
-Signal Processing and Communications Applications Conference (SIU) (pp. 1-4). IEEE
+Signal Processing and Communications Applications Conference (SIU) (pp. 1-4). IEEE <p>
 [3] Zhao, H., Shi, J., Qi, X., Wang, X., & Jia, J. (2017). Pyramid scene parsing network. In Proceedings of the IEEE conference on computer
 vision and pattern recognition (pp. 2881-2890).
